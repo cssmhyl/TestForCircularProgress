@@ -1,0 +1,32 @@
+.DS_Store
+*.lock
+*.xcworkspace
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserdata
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+/react-native/node_modules
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.idea
+Pods
