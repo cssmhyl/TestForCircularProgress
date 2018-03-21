@@ -7,7 +7,7 @@
 //
 
 #import "CircalurTableViewCell.h"
-#import <DACircularProgress/DACircularProgressView.h>
+#import <DACircularProgressView.h>
 
 @implementation CircalurTableViewCell
 
