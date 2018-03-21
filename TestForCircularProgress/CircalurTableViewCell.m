@@ -7,7 +7,7 @@
 //
 
 #import "CircalurTableViewCell.h"
-#import <DACircularProgressView.h>
+//#import <DACircularProgressView.h>
 
 @implementation CircalurTableViewCell
 
@@ -32,13 +32,13 @@
     [super awakeFromNib];
     self.contentView.backgroundColor = [UIColor yellowColor];
     
-    DACircularProgressView *progressView = [[DACircularProgressView alloc] initWithFrame:CGRectMake(10, 10, 200, 80)];
-    progressView.progress = 0.8;
-    progressView.thicknessRatio = 0.2;
-    progressView.roundedCorners = YES;
-    progressView.trackTintColor = [UIColor blackColor];
-    progressView.progressTintColor = [UIColor redColor];
-    [self.contentView addSubview:progressView];
+//    DACircularProgressView *progressView = [[DACircularProgressView alloc] initWithFrame:CGRectMake(10, 10, 200, 80)];
+//    progressView.progress = 0.8;
+//    progressView.thicknessRatio = 0.2;
+//    progressView.roundedCorners = YES;
+//    progressView.trackTintColor = [UIColor blackColor];
+//    progressView.progressTintColor = [UIColor redColor];
+//    [self.contentView addSubview:progressView];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
